@@ -12,7 +12,7 @@
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /***** Global *****/
 /* Body */
@@ -20,7 +20,7 @@ body {
     background: #F5F4EF;
     color: #000305;
     font-size: 87.5%; /* Base font size: 14px */
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.429;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: .8em;
-    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -104,7 +104,7 @@ dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
-pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px; overflow: auto;}
+pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px; overflow: auto; font-family: "IBM Plex Mono", monospace;}
 
 /* Quotes */
 blockquote {
