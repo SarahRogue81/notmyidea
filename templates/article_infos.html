@@ -16,7 +16,9 @@
                         {% endfor %}
                 </address>
         {% endif %}
-        <p>In <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.</p>
+	{% if article.status != "hidden" %}
+            <p>In <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.</p>
+        {% endif %}
         {% include 'taglist.html' %}
         {% import 'translations.html' as translations with context %}
         {{ translations.translations_for(article) }}
